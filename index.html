@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mehribon uy hayvonlarini asrab olish, parvarish savati, mos hamroh tanlash va veterinariya tekshiruvidan o'tgan do'stlar katalogi." />
+    <meta property="og:title" content="PANOH — Uy Hayvonlarini Asrab Olish Markazi" />
+    <meta property="og:image" content="./images/logo.png">
+    <meta property="og:description" content="Sodiq do'stlar yangi oilasini kutmoqda. Emlangan va mehrga chanqoq hayvonlarni asrab oling." />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=Fraunces:ital,opsz,wght@0,9..144,500..700;1,9..144,500..700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="img" href="./images/logo.png">
+    <title>PANOH — Uy Hayvonlarini Asrab Olish Markazi</title>
+</head>
+<body>
+    <div id="loader" class="loader-curtain">
+      <div class="loader-aura-1"></div>
+      <div class="loader-aura-2"></div>
+      <div class="loader-content">
+        <svg viewBox="0 0 260 260" fill="none" class="loader-svg" aria-hidden="true">
+          <g class="orbit-cw">
+            <circle cx="130" cy="130" r="116" stroke="#13221a" stroke-opacity="0.28" stroke-width="1.5" stroke-dasharray="6 10" />
+            <circle cx="130" cy="14" r="3.5" fill="#13221a" />
+            <circle cx="130" cy="246" r="3.5" fill="#13221a" />
+          </g>
+          <g class="orbit-ccw">
+            <circle cx="130" cy="130" r="96" stroke="#13221a" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="24 14 4 14" />
+            <circle cx="226" cy="130" r="3" fill="#13221a" />
+            <circle cx="34" cy="130" r="3" fill="#13221a" />
+          </g>
+          <circle cx="130" cy="130" r="76" stroke="#1B6B4A" stroke-width="2" class="pulse-ring" />
+          <path d="M70 116L130 68L190 116" stroke="#13221a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" class="draw-roof" />
+          <path d="M84 114V166C84 172.6 89.4 178 96 178H164C170.6 178 176 172.6 176 166V114" stroke="#5FA887" stroke-width="4" stroke-linecap="round" class="draw-wall" />
+          <path d="M110 156C106 142 112 130 119 128C123 127 125 132 125 137" stroke="#EDF2EE" stroke-width="2.8" stroke-linecap="round" class="draw-sil" />
+          <path d="M150 156C154 142 148 130 141 128C137 127 135 132 135 137" stroke="#EDF2EE" stroke-width="2.8" stroke-linecap="round" class="draw-sil" />
+          <g class="beat-heart">
+            <path d="M130 162s-19-12-19-24.5c0-6.2 5-11.2 11.2-11.2 3.7 0 6.7 1.9 7.8 4.6 1.1-2.7 4.1-4.6 7.8-4.6 6.2 0 11.2 5 11.2 11.2C149 150 130 162 130 162z" fill="#D95D39" />
+          </g>
+          <circle cx="114" cy="112" r="3" fill="#13221a" />
+          <circle cx="124" cy="106" r="3.4" fill="#13221a" />
+          <circle cx="136" cy="106" r="3.4" fill="#13221a" />
+          <circle cx="146" cy="112" r="3" fill="#13221a" />
+        </svg>
+        <div class="font-display loader-title">PANOH</div>
+        <p id="loaderStage" class="loader-stage">Sanctuary bog‘i eshiklari ochilmoqda...</p>
+        <div class="loader-paws">
+          <svg viewBox="0 0 24 24" fill="currentColor" class="paw-step-1"><circle cx="6.5" cy="9.5" r="2.1"/><circle cx="10.2" cy="6.2" r="2.1"/><circle cx="14.5" cy="6.4" r="2.1"/><circle cx="18" cy="10" r="2"/><path d="M12 11.2c-3.1 0-5.4 2.4-5.4 4.9 0 1.6 1.2 2.7 2.8 2.7 1.1 0 1.8-.4 2.6-.4s1.5.4 2.6.4c1.6 0 2.8-1.1 2.8-2.7 0-2.5-2.3-4.9-5.4-4.9z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" class="paw-step-2"><circle cx="6.5" cy="9.5" r="2.1"/><circle cx="10.2" cy="6.2" r="2.1"/><circle cx="14.5" cy="6.4" r="2.1"/><circle cx="18" cy="10" r="2"/><path d="M12 11.2c-3.1 0-5.4 2.4-5.4 4.9 0 1.6 1.2 2.7 2.8 2.7 1.1 0 1.8-.4 2.6-.4s1.5.4 2.6.4c1.6 0 2.8-1.1 2.8-2.7 0-2.5-2.3-4.9-5.4-4.9z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" class="paw-step-3"><circle cx="6.5" cy="9.5" r="2.1"/><circle cx="10.2" cy="6.2" r="2.1"/><circle cx="14.5" cy="6.4" r="2.1"/><circle cx="18" cy="10" r="2"/><path d="M12 11.2c-3.1 0-5.4 2.4-5.4 4.9 0 1.6 1.2 2.7 2.8 2.7 1.1 0 1.8-.4 2.6-.4s1.5.4 2.6.4c1.6 0 2.8-1.1 2.8-2.7 0-2.5-2.3-4.9-5.4-4.9z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" class="paw-step-4"><circle cx="6.5" cy="9.5" r="2.1"/><circle cx="10.2" cy="6.2" r="2.1"/><circle cx="14.5" cy="6.4" r="2.1"/><circle cx="18" cy="10" r="2"/><path d="M12 11.2c-3.1 0-5.4 2.4-5.4 4.9 0 1.6 1.2 2.7 2.8 2.7 1.1 0 1.8-.4 2.6-.4s1.5.4 2.6.4c1.6 0 2.8-1.1 2.8-2.7 0-2.5-2.3-4.9-5.4-4.9z"/></svg>
+        </div>
+        <div class="loader-progress-wrap">
+          <div class="loader-progress-head">
+            <span>Ochilmoqda</span>
+            <span id="loaderPct" class="font-mono-num loader-pct">0%</span>
+          </div>
+          <div class="loader-bar-bg">
+            <div id="loaderBar" class="loader-bar-fill"></div>
+          </div>
+        </div>
+        <button id="skipLoader" type="button" class="loader-skip">O‘tkazib yuborish</button>
+      </div>
+    </div>
+
+    <div id="scrollProgress" class="scroll-progress"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#bosh-sahifa" class="brand-link">
+          <svg viewBox="0 0 48 48" fill="none" class="brand-emblem" aria-hidden="true">
+            <rect width="48" height="48" rx="14" fill="#13221A" />
+            <path d="M10 23.5L24 11L38 23.5" stroke="#EDF2EE" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M14.5 22.5V35.5C14.5 36.6 15.4 37.5 16.5 37.5H31.5C32.6 37.5 33.5 36.6 33.5 35.5V22.5" stroke="#5FA887" stroke-width="2.2" stroke-linecap="round" />
+            <path d="M24 33.8C24 33.8 18.2 30.1 18.2 25.8C18.2 23.9 19.7 22.5 21.5 22.5C22.6 22.5 23.5 23.1 24 23.9C24.5 23.1 25.4 22.5 26.5 22.5C28.3 22.5 29.8 23.9 29.8 25.8C29.8 30.1 24 33.8 24 33.8Z" fill="#D95D39" />
+            <circle cx="20.4" cy="19.3" r="1.4" fill="#EDF2EE" />
+            <circle cx="24" cy="18" r="1.5" fill="#EDF2EE" />
+            <circle cx="27.6" cy="19.3" r="1.4" fill="#EDF2EE" />
+          </svg>
+          <span class="font-display brand-name">PANOH</span>
+        </a>
+        <nav class="main-nav">
+          <a href="#hayvonlar">Hayvonlar</a>
+          <a href="#byudjet">Xarajat Hisobi</a>
+          <a href="#standart">Tibbiy Kafolat</a>
+          <a href="#hikoyalar">Hikoyalar</a>
+          <a href="#homiylik">Homiylik</a>
+        </nav>
+        <button id="openBasketBtn" type="button" class="basket-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10h14l-1.5 9.5a1.5 1.5 0 0 1-1.5 1.3H8a1.5 1.5 0 0 1-1.5-1.3L5 10z"/><path d="M8.5 10L11 4.5"/><path d="M15.5 10L13 4.5"/><path d="M9.5 14.5v3"/><path d="M14.5 14.5v3"/></svg>
+          <span>Savat</span>
+          <span id="basketBadge" class="font-mono-num basket-badge">(0)</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="bosh-sahifa" class="hero-section">
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-copy reveal">
+              <div class="kicker">
+                <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="6.5" cy="9.5" r="2.1"/><circle cx="10.2" cy="6.2" r="2.1"/><circle cx="14.5" cy="6.4" r="2.1"/><circle cx="18" cy="10" r="2"/><path d="M12 11.2c-3.1 0-5.4 2.4-5.4 4.9 0 1.6 1.2 2.7 2.8 2.7 1.1 0 1.8-.4 2.6-.4s1.5.4 2.6.4c1.6 0 2.8-1.1 2.8-2.7 0-2.5-2.3-4.9-5.4-4.9z"/></svg>
+                <span>Toshkent Hayvonlarni Himoya va Asrab Olish Markazi</span>
+              </div>
+              <h1>Mehrga muhtoj yuraklar sizning uyingizni kutmoqda.</h1>
+              <p class="hero-lead">Har bir it, mushuk, quyon va qush markazimizda to‘liq veterinariya ko‘rigidan o‘tgan, emlangan va yangi oilasi bilan do‘stlashishga tayyor.</p>
+              <div class="hero-actions">
+                <a href="#hayvonlar" class="btn-primary">Do‘st tanlash</a>
+                <a href="#moslik" class="btn-outline">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="12" cy="12" r="9"/><polygon points="15.5,8.5 13.4,13.4 8.5,15.5 10.6,10.6"/></svg>
+                  <span>Mos hamrohni topish</span>
+                </a>
+              </div>
+            </div>
+            <div class="hero-visual-box reveal">
+              <div id="heroParallax" class="hero-parallax-wrap">
+                <img src="images/hero_shelter_bond_1794756322988.jpg" alt="Quyoshli bog‘da dam olayotgan qutqarilgan it va mushuk" />
+              </div>
+              <div class="hero-float-card">
+                <div>
+                  <small>Ochiq hovli parvarishxonasi · Har kuni 09:00 – 19:00</small>
+                  <p>Birgalikda yangi hayot boshlang</p>
+                </div>
+                <div class="float-heart-badge">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 20.5s-7.5-4.7-9.2-9C1.6 8.3 3.7 5 7.2 5c2 0 3.7 1 4.8 2.6C13.1 6 14.8 5 16.8 5c3.5 0 5.6 3.3 4.4 6.5-1.7 4.3-9.2 9-9.2 9z"/></svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="metrics-strip reveal">
+            <div><p class="font-mono-num metric-val">420+</p><p class="metric-lbl">Baxtli oilalarga topshirilgan</p></div>
+            <div><p class="font-mono-num metric-val">100%</p><p class="metric-lbl">Emlangan va tekshirilgan</p></div>
+            <div><p class="font-mono-num metric-val">14 kun</p><p class="metric-lbl">Uyda moslashuv qo‘llab-quvvatlovi</p></div>
+            <div><p class="font-mono-num metric-val">3 filial</p><p class="metric-lbl">Toshkent shahri bo‘ylab</p></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="marquee-bar">
+        <div id="marqueeTrack" class="marquee-track"></div>
+      </div>
+
+      <section id="hayvonlar" class="sec">
+        <div class="container">
+          <div class="sec-head-row reveal">
+            <div>
+              <p class="sec-label">Asrab olish katalogi</p>
+              <h2 class="sec-title">Yangi oilasini kutayotgan 8 ta do‘st</h2>
+            </div>
+            <div class="controls-row">
+              <div class="search-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.8-3.8"/></svg>
+                <input id="searchInput" type="text" placeholder="Ism yoki zot bo‘yicha qidirish..." class="input-field search-input" />
+              </div>
+              <select id="tempFilter" aria-label="Xarakter bo‘yicha saralash" class="input-field">
+                <option value="all">Barcha xarakterlar</option>
+                <option value="calm">Sokin va vazmin</option>
+                <option value="active">Faol va o‘yinqaroq</option>
+              </select>
+            </div>
+          </div>
+
+          <div id="catBar" class="cat-bar">
+            <button type="button" class="cat-btn active" data-cat="all">Barchasi (8)</button>
+            <button type="button" class="cat-btn" data-cat="dog">Itlar</button>
+            <button type="button" class="cat-btn" data-cat="cat">Mushuklar</button>
+            <button type="button" class="cat-btn" data-cat="rabbit">Quyonlar</button>
+            <button type="button" class="cat-btn" data-cat="bird">Qushlar</button>
+          </div>
+
+          <div id="petsGrid" class="pets-grid"></div>
+          <div id="petsEmpty" class="empty-box hidden">
+            <h3>Qidiruv bo‘yicha do‘st topilmadi</h3>
+            <p>Filtrlarni tozalab, barcha hayvonlarni ko‘rib chiqishingiz mumkin.</p>
+            <button id="resetFilterBtn" type="button" class="btn-primary" style="margin-top:20px;">Barchasini ko‘rsatish</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="byudjet" class="sec sec-surface">
+        <div class="container split-12 reveal">
+          <div>
+            <p class="sec-label">Oldindan rejalashtirish</p>
+            <h2 class="sec-title">Oylik parvarish va ozuqa kalkulyatori</h2>
+            <p class="sub-lead">Yangi do‘stingiz uchun oylik oziq-ovqat, tozalik va profilaktika xarajatlarini oldindan aniq hisoblab ko‘ring.</p>
+            <div class="choice-group">
+              <span class="choice-label">Hayvon turi</span>
+              <div id="calcSpeciesBtns" class="grid-4">
+                <button type="button" class="choice-btn active-dark" data-val="dog">It</button>
+                <button type="button" class="choice-btn" data-val="cat">Mushuk</button>
+                <button type="button" class="choice-btn" data-val="rabbit">Quyon</button>
+                <button type="button" class="choice-btn" data-val="bird">Qush</button>
+              </div>
+            </div>
+            <div class="grid-2" style="margin-top:18px;gap:16px;">
+              <div>
+                <span class="choice-label">Ozuqa toifasi</span>
+                <div id="calcFoodBtns" class="grid-2">
+                  <button type="button" class="choice-btn" data-val="standard">Standart</button>
+                  <button type="button" class="choice-btn active-green" data-val="premium">Premium</button>
+                </div>
+              </div>
+              <div>
+                <span class="choice-label">Veterinar nazorati</span>
+                <div id="calcVetBtns" class="grid-2">
+                  <button type="button" class="choice-btn" data-val="basic">Mavsumiy</button>
+                  <button type="button" class="choice-btn active-green" data-val="full">To‘liq reja</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="white-card">
+            <div class="donut-layout">
+              <div class="donut-box">
+                <svg viewBox="0 0 120 120" aria-hidden="true">
+                  <circle cx="60" cy="60" r="46" fill="none" stroke="#edf2ee" stroke-width="14" />
+                  <circle id="donutFood" cx="60" cy="60" r="46" fill="none" stroke="#1b6b4a" stroke-width="14" stroke-dasharray="289" stroke-dashoffset="100" />
+                  <circle id="donutVet" cx="60" cy="60" r="46" fill="none" stroke="#d95d39" stroke-width="14" stroke-dasharray="70 289" stroke-dashoffset="-189" />
+                </svg>
+                <div class="donut-center">
+                  <span>Oylik jami</span>
+                  <strong id="budgetTotal" class="font-mono-num">759 000 so‘m</strong>
+                </div>
+              </div>
+              <div class="budget-rows">
+                <div class="budget-row">
+                  <div class="budget-lbl">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#1b6b4a" stroke-width="1.9"><path d="M4 13h16l-1.5 6h-13L4 13z"/><path d="M9 9.5c0-1 .8-1.5.8-2.5M12 9.5c0-1 .8-1.5.8-2.5M15 9.5c0-1 .8-1.5.8-2.5"/></svg>
+                    <span id="lblFood">Ozuqa (66%)</span>
+                  </div>
+                  <strong id="valFood" class="font-mono-num">504 000 so‘m</strong>
+                </div>
+                <div class="budget-row">
+                  <div class="budget-lbl">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#d95d39" stroke-width="1.9"><path d="M5 4v5a5 5 0 0 0 10 0V4"/><path d="M10 14v3a4 4 0 0 0 8 0v-3"/><circle cx="18" cy="12" r="2"/></svg>
+                    <span id="lblVet">Profilaktika (21%)</span>
+                  </div>
+                  <strong id="valVet" class="font-mono-num">160 000 so‘m</strong>
+                </div>
+                <div class="budget-row">
+                  <div class="budget-lbl">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#4b6155" stroke-width="1.9"><path d="M19 5c-7 0-13 4.5-13 12 0 1 .2 2 .5 2.5C14 19.5 19 14 19 5z"/><path d="M6.5 19.5L13 13"/></svg>
+                    <span id="lblHyg">Gigiyena (13%)</span>
+                  </div>
+                  <strong id="valHyg" class="font-mono-num">95 000 so‘m</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="moslik" class="sec">
+        <div class="container split-12 reveal">
+          <div>
+            <p class="sec-label">Moslik aniqlagich</p>
+            <h2 class="sec-title">Turmush tarzingizga mos do‘stni toping</h2>
+            <p class="sub-lead">Sharoitingizni belgilang — tizim sizga eng tez ko‘nikadigan va xarakteringizga mos hayvonni tavsiya etadi.</p>
+            <div class="choice-group">
+              <span class="choice-label">1. Yashash joyingiz turi</span>
+              <div id="matchHouseBtns" class="grid-2">
+                <button type="button" class="choice-btn active-green" data-val="apartment">Kvartira</button>
+                <button type="button" class="choice-btn" data-val="yard">Hovlili uy</button>
+              </div>
+            </div>
+            <div class="choice-group">
+              <span class="choice-label">2. Kunlik faollik darajangiz</span>
+              <div id="matchActBtns" class="grid-2">
+                <button type="button" class="choice-btn active-green" data-val="calm">Sokin va uyda ko‘proq</button>
+                <button type="button" class="choice-btn" data-val="active">Sayr va harakatni sevaman</button>
+              </div>
+            </div>
+            <div class="choice-group">
+              <span class="choice-label">3. Parvarish tajribangiz</span>
+              <div id="matchExpBtns" class="grid-2">
+                <button type="button" class="choice-btn active-green" data-val="beginner">Birinchi marta</button>
+                <button type="button" class="choice-btn" data-val="experienced">Tajribam bor</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="white-card">
+            <div class="matcher-head">
+              <div>
+                <p style="font-size:12px;color:var(--ink-secondary);font-weight:500;">Sizga eng mos tavsiya</p>
+                <h3 id="matchPetTitle" style="font-size:24px;font-weight:600;">Kumush (Mushuk)</h3>
+              </div>
+              <div class="matcher-ring">
+                <svg viewBox="0 0 64 64" aria-hidden="true">
+                  <circle cx="32" cy="32" r="26" fill="none" stroke="#edf2ee" stroke-width="6" />
+                  <circle id="matchCircle" cx="32" cy="32" r="26" fill="none" stroke="#1b6b4a" stroke-width="6" stroke-linecap="round" stroke-dasharray="163.36" stroke-dashoffset="6" />
+                </svg>
+                <span id="matchPctText" class="font-mono-num matcher-pct">99%</span>
+              </div>
+            </div>
+            <div class="matcher-body">
+              <div class="matcher-photo"><img id="matchPetImg" src="images/pet_cat_british_1794756323804.jpg" alt="Mos tavsiya" /></div>
+              <div class="matcher-copy">
+                <div>
+                  <p id="matchPetTemp" style="font-size:12px;font-weight:600;color:var(--accent-emerald);">Vazmin va sokin</p>
+                  <p id="matchPetStory" style="margin-top:8px;font-size:14px;color:var(--ink-secondary);"></p>
+                </div>
+                <div class="pet-btns" style="margin-top:16px;">
+                  <button id="matchDetailBtn" type="button" class="btn-card-sec">Ma’lumot</button>
+                  <button id="matchAddBtn" type="button" class="btn-card-cta">Savatga olish</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="standart" class="sec sec-dark">
+        <div class="container reveal">
+          <div class="sec-head-row">
+            <div>
+              <p class="sec-label">Sog‘liq va parvarish protokoli</p>
+              <h2 class="sec-title" style="color:#fff;">PANOH Tibbiy Kafolatlari</h2>
+            </div>
+            <div id="stdTabs" class="std-tabs"></div>
+          </div>
+          <div id="stdPanel" class="std-panel"></div>
+        </div>
+      </section>
+
+      <section id="hikoyalar" class="sec">
+        <div class="container reveal">
+          <div>
+            <p class="sec-label">Baxtli uchrashuvlar</p>
+            <h2 class="sec-title">Yangi oilasini topgan bitiruvchilarimiz</h2>
+          </div>
+          <div class="stories-grid">
+            <article class="story-main">
+              <div class="story-main-img">
+                <img src="images/story_happy_family_1794756719241.jpg" alt="Azizbek va Madina Tursunovlar hamda Rex" />
+              </div>
+              <div style="padding:28px;">
+                <div class="pet-meta">
+                  <span>Azizbek va Madina Tursunovlar</span><span>·</span><span>Toshkent · Yakkasaroy</span><span>·</span><span>2026-yil, Yanvar</span>
+                </div>
+                <h3 style="margin-top:8px;font-size:26px;">Rex (sobiq laqabi Sarg‘ish)</h3>
+                <p class="story-quote">“U uyimizga kirgan ilk kundanoq o‘zini yillardir shu yerda yashagandek tutdi. Har tong yugurishda eng sodiq hamrohim.”</p>
+                <p class="story-outcome">6 oyda vazni normallashdi va shahar bog‘larining sevimli mehmoniga aylandi.</p>
+              </div>
+            </article>
+
+            <div class="story-side-col">
+              <article class="story-side-card">
+                <div>
+                  <div class="story-side-head">
+                    <div class="story-thumb"><img src="images/pet_cat_british_1794756323804.jpg" alt="Momiq" /></div>
+                    <div>
+                      <p style="font-size:12px;color:var(--ink-secondary);">Farida Rahmonova · 2025-yil, Dekabr</p>
+                      <h3 style="margin-top:4px;font-size:20px;">Momiq</h3>
+                      <p style="margin-top:2px;font-size:12px;color:var(--accent-emerald);font-weight:500;">Toshkent · Chilonzor</p>
+                    </div>
+                  </div>
+                  <p class="story-quote" style="font-size:14px;">“Uyda yolg‘iz ishlashim sabab sokin do‘st izlagan edim. PANOH maslahati bilan Momiqni oldik — hayotim yanada fayzli bo‘ldi.”</p>
+                </div>
+                <p class="story-outcome" style="color:var(--ink-primary);">Natija: Kvartira muhitiga 3 kunda moslashdi.</p>
+              </article>
+
+              <article class="story-side-card">
+                <div>
+                  <div class="story-side-head">
+                    <div class="story-thumb"><img src="images/pet_rabbit_lop_1794756324593.jpg" alt="Baxtli Quyosh" /></div>
+                    <div>
+                      <p style="font-size:12px;color:var(--ink-secondary);">Temur va Kichik Ali · 2026-yil, Fevral</p>
+                      <h3 style="margin-top:4px;font-size:20px;">Baxtli Quyosh</h3>
+                      <p style="margin-top:2px;font-size:12px;color:var(--accent-emerald);font-weight:500;">Samarqand</p>
+                    </div>
+                  </div>
+                  <p class="story-quote" style="font-size:14px;">“Bolamiz hayvonlarga mehr qo‘yishi va mas’uliyatni o‘rganishi uchun golland lop quyonchasini tanladik. Hamma shifokor tavsiyalari juda qo‘l keldi.”</p>
+                </div>
+                <p class="story-outcome" style="color:var(--ink-primary);">Natija: Oila a’zosiga aylangan eng yuvosh do‘st.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="homiylik" class="sec sec-surface">
+        <div class="container reveal">
+          <div class="sec-head-row">
+            <div>
+              <p class="sec-label">Masofaviy ko‘mak</p>
+              <h2 class="sec-title">Uyga olishga imkoningiz bo‘lmasa — homiy bo‘ling</h2>
+            </div>
+            <p class="sub-lead" style="max-width:340px;margin:0;">Tanlangan homiylik to‘plamini savatga qo‘shib, panohdagi do‘stlarning parvarishiga hissa qo‘shishingiz mumkin.</p>
+          </div>
+          <div id="sponsorGrid" class="grid-3"></div>
+        </div>
+      </section>
+
+      <section id="jarayon" class="sec">
+        <div class="container reveal">
+          <div>
+            <p class="sec-label">Shaffof tartib</p>
+            <h2 class="sec-title">Asrab olishning 4 oddiy bosqichi</h2>
+          </div>
+          <div class="steps-grid">
+            <div class="step-card">
+              <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.8-3.8"/></svg></div>
+              <p class="font-mono-num step-num">01</p>
+              <h3>Do‘st tanlash</h3>
+              <p>Katalogdan o‘zingizga ma’qul hayvonni va zarur parvarish to‘plamini savatga qo‘shing.</p>
+            </div>
+            <div class="step-card">
+              <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M5 4v5a5 5 0 0 0 10 0V4"/><path d="M10 14v3a4 4 0 0 0 8 0v-3"/><circle cx="18" cy="12" r="2"/></svg></div>
+              <p class="font-mono-num step-num">02</p>
+              <h3>Tibbiy pasport</h3>
+              <p>Markaz shifokori barcha emlash qaydlari va parvarish bo‘yicha aniq yo‘riqnomani taqdim etadi.</p>
+            </div>
+            <div class="step-card">
+              <div class="icon-box"><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="6.5" cy="9.5" r="2.1"/><circle cx="10.2" cy="6.2" r="2.1"/><circle cx="14.5" cy="6.4" r="2.1"/><circle cx="18" cy="10" r="2"/><path d="M12 11.2c-3.1 0-5.4 2.4-5.4 4.9 0 1.6 1.2 2.7 2.8 2.7 1.1 0 1.8-.4 2.6-.4s1.5.4 2.6.4c1.6 0 2.8-1.1 2.8-2.7 0-2.5-2.3-4.9-5.4-4.9z"/></svg></div>
+              <p class="font-mono-num step-num">03</p>
+              <h3>Jonli uchrashuv</h3>
+              <p>Ochiq bog‘imizda birga vaqt o‘tkazib, o‘zaro uyg‘unlikni his qilib ko‘rasiz.</p>
+            </div>
+            <div class="step-card">
+              <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M3.5 10.5L12 3.5l8.5 7"/><path d="M5.5 9.5V20a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V9.5"/><path d="M12 17.5s-3.5-2.2-3.5-4.3a2 2 0 0 1 3.5-1.3 2 2 0 0 1 3.5 1.3c0 2.1-3.5 4.3-3.5 4.3z"/></svg></div>
+              <p class="font-mono-num step-num">04</p>
+              <h3>Yangi xonadon</h3>
+              <p>Shartnoma tuzilgach, dastlabki 14 kun davomida mutaxassislarimiz doimiy aloqada bo‘ladi.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tashrif" class="sec sec-surface">
+        <div class="container split-12 reveal" style="align-items:flex-start;">
+          <div>
+            <p class="sec-label">Ko‘p so‘raladigan savollar</p>
+            <h2 class="sec-title">Bilishingiz muhim jihatlar</h2>
+            <div id="faqList" class="faq-list"></div>
+          </div>
+
+          <div class="white-card">
+            <h2 style="font-size:24px;font-weight:600;">Markazga tashrif buyurish uchun yozilish</h2>
+            <p class="sub-lead" style="margin-top:4px;">Hayvonlar bilan jonli ko‘rishish uchun qulay kunni band qiling.</p>
+            <form id="visitForm" style="margin-top:24px;">
+              <div class="form-grid-2">
+                <div class="form-group"><label>Ismingiz</label><input required type="text" placeholder="Dilnoza Karimova" class="form-input" /></div>
+                <div class="form-group"><label>Telefon raqamingiz</label><input required type="tel" placeholder="+998 90 123 45 67" class="form-input" /></div>
+              </div>
+              <div class="form-group"><label>Tashrif sanasi</label><input required type="date" class="form-input" /></div>
+              <div class="form-group"><label>Qaysi do‘stimiz bilan tanishmoqchisiz?</label><input type="text" placeholder="Masalan: Kumush yoki Apelsin" class="form-input" /></div>
+              <button type="submit" class="btn-dark-full" style="padding:13px;">Tashrifni band qilish</button>
+            </form>
+            <div id="visitSuccess" class="success-banner hidden">
+              <div class="success-title">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+                <span>Tashrifingiz muvaffaqiyatli belgilandi</span>
+              </div>
+              <p style="margin-top:6px;font-size:13px;color:var(--ink-secondary);">Koordinatorimiz manzil va darvoza kodini SMS orqali yuboradi.</p>
+              <button id="visitResetBtn" type="button" style="margin-top:12px;border:none;background:none;text-decoration:underline;font-size:12px;font-weight:600;cursor:pointer;">Yana bir ariza qoldirish</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div style="display:flex;align-items:center;gap:12px;">
+              <svg viewBox="0 0 48 48" fill="none" style="width:36px;height:36px;"><rect width="48" height="48" rx="14" fill="#13221A"/><path d="M10 23.5L24 11L38 23.5" stroke="#EDF2EE" stroke-width="2.6" stroke-linecap="round"/><path d="M14.5 22.5V35.5C14.5 36.6 15.4 37.5 16.5 37.5H31.5C32.6 37.5 33.5 36.6 33.5 35.5V22.5" stroke="#5FA887" stroke-width="2.2"/><path d="M24 33.8C24 33.8 18.2 30.1 18.2 25.8C18.2 23.9 19.7 22.5 21.5 22.5C22.6 22.5 23.5 23.1 24 23.9C24.5 23.1 25.4 22.5 26.5 22.5C28.3 22.5 29.8 23.9 29.8 25.8C29.8 30.1 24 33.8 24 33.8Z" fill="#D95D39"/></svg>
+              <span class="font-display" style="font-size:18px;font-weight:700;color:#fff;">PANOH</span>
+            </div>
+            <p style="margin-top:12px;font-size:12px;color:#9cb5a5;line-height:1.65;">Qutqarilgan uy hayvonlarini mehrli oilalar bilan uchrashtiruvchi nodavlat panoh markazi.</p>
+          </div>
+          <div>
+            <p class="footer-title">Bo‘limlar</p>
+            <ul class="footer-links">
+              <li><a href="#hayvonlar">Hayvonlar katalogi</a></li>
+              <li><a href="#byudjet">Xarajat kalkulyatori</a></li>
+              <li><a href="#moslik">Mos hamroh testi</a></li>
+              <li><a href="#standart">Tibbiy kafolat</a></li>
+              <li><a href="#hikoyalar">Baxtli hikoyalar</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer-title">Manzilimiz</p>
+            <p style="margin-top:12px;font-size:12px;">Toshkent sh., Bog‘ishamol ko‘chasi 48A</p>
+            <p style="margin-top:8px;font-size:12px;color:#9cb5a5;">Har kuni: 09:00 — 19:00</p>
+          </div>
+          <div>
+            <p class="footer-title">Aloqa</p>
+            <p class="font-mono-num" style="margin-top:12px;font-size:12px;">+998 71 200 45 90</p>
+            <p style="margin-top:8px;font-size:12px;color:#9cb5a5;">mehr@panoh.uz</p>
+          </div>
+        </div>
+        <div class="footer-bottom">© 2026 PANOH Markazi. Barcha huquqlar himoyalangan.</div>
+      </div>
+    </footer>
+
+    <div id="petModal" class="modal-backdrop hidden">
+      <div id="petModalContent" class="modal-card"></div>
+    </div>
+
+    <div id="basketDrawer" class="drawer-backdrop hidden">
+      <aside class="drawer-panel">
+        <div style="display:flex;align-items:center;justify-content:space-between;padding-bottom:16px;border-bottom:1px solid var(--border-hair);">
+          <div>
+            <h3 style="font-size:24px;font-weight:600;">Asrab olish savati</h3>
+            <p style="font-size:12px;color:var(--ink-secondary);">Tanlangan hayvonlar, parvarish to‘plamlari va homiylik</p>
+          </div>
+          <button id="closeBasketBtn" type="button" style="padding:8px;border-radius:8px;border:1px solid var(--border-hair);background:#fff;cursor:pointer;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M6 6l12 12M18 6L6 18"/></svg>
+          </button>
+        </div>
+
+        <div id="basketBody" class="drawer-body"></div>
+
+        <form id="adoptForm" class="hidden" style="border-top:1px solid var(--border-hair);padding-top:16px;display:flex;flex-direction:column;gap:10px;">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;">
+            <span style="font-size:12px;color:var(--ink-secondary);font-weight:500;">Umumiy badal:</span>
+            <strong id="basketTotal" class="font-mono-num" style="font-size:18px;font-weight:600;">0 so‘m</strong>
+          </div>
+          <input required id="appName" type="text" placeholder="Ism familiyangiz" class="input-field" style="width:100%;font-size:12px;" />
+          <div class="grid-2" style="gap:8px;">
+            <input required id="appPhone" type="tel" placeholder="+998 90 ..." class="input-field" style="width:100%;font-size:12px;" />
+            <input required id="appAddr" type="text" placeholder="Tuman / Manzil" class="input-field" style="width:100%;font-size:12px;" />
+          </div>
+          <button type="submit" class="btn-primary" style="width:100%;padding:12px;">Asrab olish arizasini yuborish</button>
+        </form>
+      </aside>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
